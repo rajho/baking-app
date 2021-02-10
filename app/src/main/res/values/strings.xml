@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Baky</string>
+
+    <!-- Main Activity / Recipes -->
+    <string name="error_message">No recipes available</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_ingredients">Recipe Ingredients</string>
+
+    <!-- Step -->
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+    <string name="add_widget">Add widget</string>
+</resources>

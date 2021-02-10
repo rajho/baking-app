@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/TextAppearance.MaterialComponents.Headline1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/video_player"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/step_description"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingHorizontal="96dp"
+        android:paddingVertical="48dp"
+        tools:ignore="HardcodedText"
+        tools:text="1. Preheat the oven to 350�F. Butter the bottom and sides of a 9x13 pan." />
+</LinearLayout>
+
